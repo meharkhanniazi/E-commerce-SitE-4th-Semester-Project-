@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arham Khan",
+  "license": "ISC",
+  "dependencies": {
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^3.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "8.4.0"
+  }
+}
